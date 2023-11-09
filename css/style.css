@@ -418,7 +418,6 @@ a:focus {
 
 .slider_section ol.carousel-indicators {
   margin: 0;
-  bottom: -75px;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -853,7 +852,49 @@ a:focus {
   color: #ffffff;
   font-size: 20px;
 }
+/* quem somos section*/
+.quemsomos_section{
+  background-image: url('../images/quemsomos.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+#img-container{
+  width:100%;  
+}
+#quemsomos{
+  background-color: #0c0c0c9d;
+  padding: 30px;
+}
+@media (max-width: 600px) {
+  #quemsomos{
+  }
+}
+.quemsomos_section.img-container .img-box img {
+  width: 400px;  
+}
 
+.quemsomos_section h2{
+  color: #fff;
+  text-align: center;
+}
+.quemsomos_section p{
+  color: #fff;
+}
+.quemsomos_section .card{
+  margin-top: 30px;
+  background-color: transparent;
+  text-align: center;
+  border: none;
+  color: #fff;
+}
+.quemsomos_section .card img{
+  background-color: #e5e5e5;
+  padding: 10px;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* footer section*/
 .footer_section {
   font-weight: 500;
